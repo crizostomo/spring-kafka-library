@@ -1,6 +1,4 @@
 
-R
-"library-events-producer/.gitignore,7\4\746b705fa56e7c805814076f8342d054e16a3468
 |
 Llibrary-events-producer/src/main/java/com/kafka/config/AutoCreateConfig.java,9\e\9e07bf394758e0dae3d2ef8d6100342b9e6dcbe0
 …
@@ -15,3 +13,7 @@ Llibrary-events-producer/src/main/java/com/kafka/domain/LibraryEventType.java,4
 \library-events-producer/src/main/java/com/kafka/controller/LibraryEventControllerAdvice.java,9\6\964741808ccc4e5a531ceea89a1600c05977a1ef
 T
 $library-events-producer/build.gradle,e\c\ecfdab10ad6ec1e51ed0d40e1607b8017f211138
+W
+'library-events-consumer/settings.gradle,2\8\28f1998e35bd01db4c6528acbb2a6f9fb20697a2
+T
+$library-events-consumer/build.gradle,b\1\b1fa6e45733f5c16aaad487ad2e0c377694a04f1
