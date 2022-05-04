@@ -17,3 +17,5 @@ W
 'library-events-consumer/settings.gradle,2\8\28f1998e35bd01db4c6528acbb2a6f9fb20697a2
 T
 $library-events-consumer/build.gradle,b\1\b1fa6e45733f5c16aaad487ad2e0c377694a04f1
+‡
+Wlibrary-events-producer/src/main/java/com/kafka/controller/LibraryEventsController.java,1\e\1ef27765a74aa432d334e19b086100830530bfe9
