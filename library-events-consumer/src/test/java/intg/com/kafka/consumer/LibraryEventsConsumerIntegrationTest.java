@@ -5,6 +5,7 @@ import com.kafka.entity.LibraryEvent;
 import com.kafka.jpa.LibraryEventsRepository;
 import com.kafka.service.LibraryEventsService;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,6 +58,11 @@ public class LibraryEventsConsumerIntegrationTest {
         for (MessageListenerContainer messageListenerContainer : endpointRegistry.getListenerContainers()){
             ContainerTestUtils.waitForAssignment(messageListenerContainer, embeddedKafkaBroker.getPartitionsPerTopic());
         }
+    }
+
+    @AfterEach
+    void tearDown() {
+        libraryEventsRepository.deleteAll();
     }
 
     @Test
